@@ -11,16 +11,16 @@ function renderLicenseBadge(licenseBadge) {
   if (licenseBadge !== 'No license') {
     switch (licenseBadge) {
       case 'Apache ':
-        licenseBadge = `[![License] https://img.shields.io/badge/Apache-2.0-brightgreen.svg]`;
+        licenseBadge = `![License] (https://img.shields.io/badge/Apache-2.0-brightgreen.svg)`;
         break;
       case 'BSD 3':
-        licenseBadge = `![License] https://img.shields.io/badge/License-BSD_3--Clause-blue.svg`;
+        licenseBadge = `![License] (https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)`;
         break;
       case 'GNU GPLv3.0':
-        licenseBadge = `![License] https://img.shields.io/badge/License-GPLv3-blue.svg`;
+        licenseBadge = `![License] (https://img.shields.io/badge/License-GPLv3-blue.svg)`;
         break;
       case 'MIT':
-        licenseBadge = `![License] https://img.shields.io/badge/License-MIT-yellow.svg`;
+        licenseBadge = `![License] (https://img.shields.io/badge/License-MIT-yellow.svg)`;
         break;
       default:
         break;
@@ -44,13 +44,13 @@ function renderLicenseLink(licenseLink) {
         licenseLink = `(https://opensource.org/licenses/Apache-2.0)`;
         break;
       case 'BSD 3-Clause':
-        licenseLink = `https://opensource.org/licenses/BSD-3-Clause`;
+        licenseLink = `(https://opensource.org/licenses/BSD-3-Clause)`;
         break;
       case 'GNU GPLv3.0':
-        licenseLink = `https://www.gnu.org/licenses/gpl-3.0`;
+        licenseLink = `(https://www.gnu.org/licenses/gpl-3.0)`;
         break;
       case 'MIT':
-        licenseLink = `https://opensource.org/licenses/MIT`;
+        licenseLink = `(https://opensource.org/licenses/MIT)`;
         break;
       default:
         break;
@@ -67,7 +67,7 @@ function renderLicenseSection(license) {
 
   if (license !== 'No license') {
     return `
-       following license: (${renderLicenseBadge(license)}) & ${renderLicenseLink(license)}
+       following license: ${renderLicenseBadge(license)} & ${renderLicenseLink(license)}
         `;
   } else {
     return ' ';
