@@ -14,7 +14,7 @@ function renderLicenseBadge(licenseBadge) {
         licenseBadge = `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`;
         break;
       case 'BSD 3':
-        licenseBadge = `![License] (https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)`;
+        licenseBadge = `[![License] (https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)]`;
         break;
       case 'GNU GPLv3.0':
         licenseBadge = `![License] (https://img.shields.io/badge/License-GPLv3-blue.svg)`;
