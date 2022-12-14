@@ -10,7 +10,7 @@ function renderLicenseBadge(licenseBadge) {
 
   if (licenseBadge !== 'No license') {
     switch (licenseBadge) {
-      case 'Apache ':
+      case 'Apache':
         licenseBadge = `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`;
         break;
       case 'BSD 3':
@@ -78,7 +78,7 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `# ${data.title}
  
-  ${renderLicenseBadge(data.license)}}
+  ${renderLicenseBadge(data.license)}
   ## Description
   ${data.description}
   ## Table of Contents
