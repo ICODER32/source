@@ -1,0 +1,22 @@
+{
+  "name": "static-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maria",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mary90272/Professional-REAME-Generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Mary90272/Professional-REAME-Generator/issues"
+  },
+  "homepage": "https://github.com/Mary90272/Professional-REAME-Generator#readme"
+}
