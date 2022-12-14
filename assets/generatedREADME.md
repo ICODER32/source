@@ -1,8 +1,8 @@
-# IUTYJTG
+# UYHGDF
  
-  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ## Description
-  UJYTGRF
+  UYTGRFD
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
@@ -11,21 +11,21 @@
   * [Questions](#questions)
   * [License](#license)
   ## Installation
-  UJYTGRF
+  UYTGRFD
   ## Usage
-  UJYHTGRF
+  UYDGTRFD
   ## Contribution
-  UJYRTGRFD
+  UJYHGFD
   ## Tests
-  JYHGFD
+  UJYHTGRFD
   ## Questions
-  * Checkout my [GitHub profile](https://github.com/HYETGRF)
+  * Checkout my [GitHub profile](https://github.com/YRTRGF)
   
-  * Any additional questions or feed back, feel free to [send an email](mailto:HYETGRFAD). 
+  * Any additional questions or feed back, feel free to [send an email](mailto:UYRTGRF). 
   ## License
-  Copyright (c) [HYETGRF](https://github.com/HYETGRF). All rights reserved.
+  Copyright (c) [YRTRGF](https://github.com/YRTRGF). All rights reserved.
   
   Licensed under the  
-       following license: [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) & (https://www.gnu.org/licenses/gpl-3.0)
+       following license: [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) & (https://opensource.org/licenses/MIT)
          license.
   
