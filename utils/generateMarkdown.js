@@ -67,7 +67,7 @@ function renderLicenseSection(license) {
 
   if (license !== 'No license') {
     return `
-       following license: ${renderLicenseBadge(license)} & ${renderLicenseLink(license)}
+       following license: (${renderLicenseBadge(license)}) & ${renderLicenseLink(license)}
         `;
   } else {
     return ' ';
